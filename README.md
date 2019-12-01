@@ -1,4 +1,4 @@
-## Website Not Found
+## Website Not Available
 Welcome to the rambles of a sleepless sleepy nobody at 3:32 AM. Allow me to congratulate you on this meaningless event in your life, that is technically factual and perhaps even true.
 
 This is the mission:
