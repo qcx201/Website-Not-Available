@@ -1,5 +1,5 @@
-## Website
-Welcome to the rambles of a sleepless sleepy nobody at 3:31 AM. Allow me to congratulate you on this meaningless though not non-existant milestone in your life.
+## Website Not Found
+Welcome to the rambles of a sleepless sleepy nobody at 3:32 AM. Allow me to congratulate you on this meaningless though not non-existant milestone in your life.
 
 This is the mission:
 1. Learn how to make a website (cheaply, if possible)
