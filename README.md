@@ -10,4 +10,4 @@ This is the mission:
 
 4. Become able to support myself (and company) financially somehow and move to Sweden.
 
-5. To live deliberately, to front only the essential facts of life, and learn what the website had to teach--and not, when I come to die, discover I had not lived.
+5. To live deliberately, to front only the essential facts of life, and learn what the website had to teach--and not when I come to die discover I had not lived.
