@@ -1,5 +1,5 @@
 ## Website Not Available
-Welcome to the rambles of a sleepless sleepy nobody at 3:32 AM. Allow me to congratulate you on this meaningless event in your life, that is technically factual and perhaps even true.
+Welcome to the rambles of a sleepless sleepy nobody at 3:32 AM. Allow me to congratulate you on this event in your life that is technically happening and perhaps even true, though completely meaningless and insigificant.
 
 This is the mission:
 1. Learn how to make a website (cheaply, if possible).
