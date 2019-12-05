@@ -12,4 +12,4 @@ This is the mission:
 
 5. To live deliberately, to front only the essential facts of life, and learn what the website had to teach--and not when I come to die discover I had not lived.
 
-The adventure begins[https://websitenotavailable.github.io/Website-Not-Available/]
+[The adventure begins](https://websitenotavailable.github.io/Website-Not-Available/)
