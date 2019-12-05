@@ -1,5 +1,5 @@
 ## Website Not Available
-Welcome to the rambles of a sleepless sleepy nobody at 3:32 AM. Allow me to congratulate you on this experience in your life that is completely meaningless and insigificant, though it is technically happening and perhaps even true...
+Welcome to the rambles of a sleepless nobody at 3:32 AM. Allow me to congratulate you on this experience in your life that is completely meaningless and insigificant, though it is technically happening and perhaps even true...
 
 This is the mission:
 
