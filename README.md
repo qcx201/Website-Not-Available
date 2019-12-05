@@ -5,12 +5,12 @@ This is the mission:
 
 1. Learn how to make a website (cheaply, if possible).
 
-2. Throw misguided, half-baked ideas unto a website--as you would throw unto the sink a cake made from scratch that came out of the oven suddenly disappointing, or would a wet wad of toilet paper onto the wall, wondering how hard one needs to throw to make it stick.
+2. Throw misguided, half-baked ideas unto a website--as one would throw a wad of wet paper onto the wall, curious at how hard one needs to throw to make it stick.
 
 3. Make sense of the strange and incomprehensible and frightening.
 
-4. Become able to support myself (and company) financially and somehow move to Sweden.
+4. Become able to support oneself (and company) financially and somehow move to Sweden.
 
-5. To live deliberately, to front only the essential facts of life, and learn what the website had to teach--and not when I come to die discover I had not lived.
+5. To live deliberately, to front only the essential facts of life, and learn what the website had to teach--and not when one comes to die discover one has not lived.
 
 [The adventure begins...](https://websitenotavailable.github.io/Website-Not-Available/)
