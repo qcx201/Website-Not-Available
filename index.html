@@ -1,105 +1,43 @@
-
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello</title>
+  </head>
 
-<style>
-
-  h1 {
-    font-size:54px; color:white; font-family:Helvetica;
-  }
-  h2 {
-    font-size:24px; color:white;font-family:Verdana;
-  }
-  h3 {
-    font-size:20px; color:white; font-family:Verdana;
-  }
-  body {
-    font-family:Arial;
-  }
-  section {
-    padding:5px
-  }
-  div.main-header {
-    background-color:lightblue; padding:1px; text-align: center;
-  }
-  div.section-header {
-    padding-top:1px; text-indent: 10px;
-  }
-  #section-1 {
-    background: linear-gradient(to right, RGB(255,100,100) 0%, RGB(245,225,0) 100%);
-  }
-  #section-2 {
-    background: linear-gradient(to right, RGB(245,225,0) 0%, RGB(245,150,245) 100%);
-  }
-  #section-3 {
-    background: linear-gradient(to right, RGB(245,150,245) 0%, RGB(255,100,100) 100%);
-  }
-
-</style>
-
-<html>
-  <section>
-    <div class="main-header">
-      <h1>Website Not Available</h1>
-    </div>
-  </section>
-
-  <section>
-    <div class="section-header" id="section-1">
-      <h2>Website Not Available</h2>
-    </div>
+  <body>
     <div>
-      <body>
-        <p>Welcome to the rambles of a sleepless nobody at 3:32 AM. Allow me to congratulate you on this experience in your life that is completely insigificant and meaningless, though it is technically happening and perhaps even true.</p>
-        <p>This is the mission:</p>
-        <ol>
-          <li>
-            <p>Learn how to make a website (cheaply, if possible).</p>
-          </li>
-          <li>
-            <p>Throw misguided, half-baked ideas unto a website--as one would throw a wad of wet paper onto the wall, curious at how hard one needs to throw to make it stick.</p>
-          </li>
-          <li>
-            <p>Make sense of the strange and incomprehensible and frightening.</p>
-          </li>
-          <li>
-            <p>Become able to support oneself (and company) somehow and move to Sweden.</p>
-          </li>
-          <li>
-            <p>To live deliberately, to front only the essential facts of life, and learn what the website had to teach--and not when one comes to die discover one has not lived.</p>
-          </li>
-        </ol>
-      </body>
+      <h2></h2>
+    <div class="time">
+      0:10
     </div>
-  </section>
+    <button type="button" name="button" id="button" onclick="test()">
+      Start
+    </button>
 
-  <section>
-    <div class="section-header" id="section-2">
-      <h3>Website Vision Quest</h3>
-    </div>
-    <body>
-      <p>One's journey to learn how to make a website from scratch.</p>
-      <ul>
-        <li>
-          <a href="vision_quest/Day_1.html">Day 1</a>
-        </li>
-      </ul>
-    </body>
-  </section>
+    <script type="text/javascript">
 
-  <section>
-    <div class="section-header" id="section-3">
-      <h3>
-        Stream of Unconscientiousness
-      </h3>
-    </div>
-    <body>
-      <p>Random rambles lacking in moral courage.</p>
-      <ol>
-        <li>
-          <a href="blog/Blog_1.html">Please Go Away</a>
-        </li>
-      </ol>
-    </body>
-  </section>
+      function changeTime(){
+        var el = document.getElementsByClassName('time');
+
+        let seconds = parseInt(el[0].innerHTML.trim().substring(2,));
+        if (seconds > 0){
+        el[0].innerHTML = "0:0".concat(seconds - 1);
+          }
+        else {
+          el[0].innerHTML = "Congratulations. You have wasted 10 seconds of your life.";
+          clearInterval(myInterval);
+          document.getElementById("button").disabled = false;
+          document.getElementById("button").innerHTML = ":(";
+        }
+      }
+
+      function test() {
+          myInterval = setInterval(changeTime,1000);
+          document.getElementById("button").disabled = true;
+      }
+
+    </script>
+  </body>
 
 </html>
