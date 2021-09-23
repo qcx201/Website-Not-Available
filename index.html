@@ -5,12 +5,6 @@
     <title>Hello</title>
   </head>
   <style>
-    .container {
-      height: 200px;
-      position: relative;
-      border: 3px solid green;
-    }
-
     .center {
       margin: 0;
       position: absolute;
@@ -24,19 +18,17 @@
 
   <body>
     
-    <div class="container">
-      <div class="center">
-        <div class="time">
-          0:10
-        </div>
-        <button type="button" name="button" id="button" onclick="test()">
-          Start
-        </button>
+    <div class="center">
+      <div class="time">
+        0:10
       </div>
+      <button type="button" name="button" id="button" onclick="test()">
+        Start
+      </button>
     </div>
 
     <script type="text/javascript">
-
+      
       function changeTime(){
         var el = document.getElementsByClassName('time');
 
@@ -51,7 +43,7 @@
           document.getElementById("button").innerHTML = ":)";
         }
       }
-
+      
       function test() {
           myInterval = setInterval(changeTime,1000);
           document.getElementById("button").disabled = true;
