@@ -6,14 +6,15 @@
   </head>
 
   <body>
-    <div>
-      <h2></h2>
-    <div class="time">
-      0:10
-    </div>
-    <button type="button" name="button" id="button" onclick="test()">
-      Start
-    </button>
+    <center>
+        <h2></h2>
+      <div class="time">
+        0:10
+      </div>
+      <button type="button" name="button" id="button" onclick="test()">
+        Start
+      </button>
+    </center>
 
     <script type="text/javascript">
 
@@ -28,7 +29,7 @@
           el[0].innerHTML = "Congratulations. You have wasted 10 seconds of your life.";
           clearInterval(myInterval);
           document.getElementById("button").disabled = false;
-          document.getElementById("button").innerHTML = ";)";
+          document.getElementById("button").innerHTML = ":)";
         }
       }
 
