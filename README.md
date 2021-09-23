@@ -1,2 +1,2 @@
 ## Hello
-[10 Second Game](https://websitenotavailable.github.io/Website-Not-Available/)
+[The 10 Second Game](https://websitenotavailable.github.io/Website-Not-Available/)
