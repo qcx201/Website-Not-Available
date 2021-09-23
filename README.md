@@ -1,2 +1,2 @@
 ## Hello
-https://github.com/websitenotavailable/Website-Not-Available/index.html
+[Start](https://websitenotavailable.github.io/Website-Not-Available/)
