@@ -4,17 +4,36 @@
     <meta charset="utf-8">
     <title>Hello</title>
   </head>
+  <style>
+    .container {
+      height: 200px;
+      position: relative;
+      border: 3px solid green;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    </style>
+
 
   <body>
-    <center>
-        <h2></h2>
-      <div class="time">
-        0:10
+    
+    <div class="container">
+      <div class="center">
+        <div class="time">
+          0:10
+        </div>
+        <button type="button" name="button" id="button" onclick="test()">
+          Start
+        </button>
       </div>
-      <button type="button" name="button" id="button" onclick="test()">
-        Start
-      </button>
-    </center>
+    </div>
 
     <script type="text/javascript">
 
