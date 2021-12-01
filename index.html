@@ -30,6 +30,8 @@
 
     <script type="text/javascript">
       
+      var start = true
+      
       function changeTime(){
         var el = document.getElementsByClassName('time');
 
@@ -38,7 +40,7 @@
         el[0].innerHTML = "0:0".concat(seconds - 1);
           }
         else {
-          el[0].innerHTML = "Congratulations. You have just wasted 10 seconds of your life.";
+          el[0].innerHTML = "Congratulations. You have used 10 seconds of your time on earth :)";
           clearInterval(myInterval);
           document.getElementById("button").disabled = false;
           document.getElementById("button").innerHTML = ":)";
@@ -46,8 +48,12 @@
       }
       
       function test() {
+        if (start){
           myInterval = setInterval(changeTime,1000);
           document.getElementById("button").disabled = true;
+        } else {
+          document.reload();
+        }
       }
 
     </script>
